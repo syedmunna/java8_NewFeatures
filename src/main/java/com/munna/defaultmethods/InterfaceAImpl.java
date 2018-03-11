@@ -13,5 +13,6 @@ public class InterfaceAImpl implements IntefaceA{
     public static void main(String[] args) {
        // new InterfaceAImpl().method_1();
         System.out.println("this is main method()");
+        IntefaceA.staticMethod();
     }
 }
