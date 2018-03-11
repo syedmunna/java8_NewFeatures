@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_8_newfeatures.iml" filepath="$PROJECT_DIR$/.idea/modules/java_8_newfeatures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_8_newfeatures_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java_8_newfeatures_main.iml" group="java_8_newfeatures" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_8_newfeatures_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java_8_newfeatures_test.iml" group="java_8_newfeatures" />
+    </modules>
+  </component>
+</project>
