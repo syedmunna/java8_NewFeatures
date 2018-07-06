@@ -35,7 +35,10 @@ public class ConsumerExample {
         longConsumer.accept(10l);
         //ObjDoubleConsumer
         ObjDoubleConsumer<Double> objDoubleConsumer = (a,b) -> System.out.println(a+b);
-        objDoubleConsumer.accept(new Double(20),20);
+        objDoubleConsumer.accept(10.8,20);
+        BiConsumer<Integer,Double> biConsumer = (a,b) ->System.out.println(a.doubleValue()+b);
+        biConsumer.accept(10,20.45d);
+
 
         ObjDoubleConsumer<String> objDoubleConsumer1 = (a,b) -> System.out.println(a+b);
         objDoubleConsumer1.accept("this is String",20);
