@@ -13,7 +13,7 @@ public class OptionalClass {
         //creating empty Optional
         Optional<String> emptyOptional = Optional.empty();
 
-        //creating Optional using of()
+
         //writing for git training.
 
         Optional<Employee> stringOptional = Optional.of(employee);
